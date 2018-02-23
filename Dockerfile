@@ -2,11 +2,8 @@
 FROM alpine:latest
 
 ENV VER=3.10
-ENV CONFIG_JSON1={\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"vmess\",\"port\": 
 #ENV PORT=8080
-ENV CONFIG_JSON2=,\"settings\":{\"clients\":[{\"id\":\"
 #ENV UUID=91cb66ba-a373-43a0-8169-33d4eeaeb857 
-ENV CONFIG_JSON3=\",\"alterId\":64}]},\"streamSettings\":{\"network\":\"ws\"}},\"inboundDetour\":[],\"outbound\":{\"protocol\":\"freedom\",\"settings\":{}}} 
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && mkdir -m 777 /v2raybin \ 
@@ -22,6 +19,9 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && rm -rf v2ray-v$VER-linux-64 
  
 ADD entrypoint.sh /entrypoint.sh
+ADD 1.json /v2raybin/1.json
+ADD 2.json /v2raybin/2.json
+ADD 3.json /v2raybin/3.json
 RUN chmod +x /entrypoint.sh 
 
 CMD /entrypoint.sh

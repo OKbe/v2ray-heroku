@@ -1,0 +1,19 @@
+",
+                    "alterId":100
+                }
+            ]
+        },
+        "streamSettings":{
+            "network":"ws",
+            "wsSettings":{
+                "path":"/fuckgfw_gfwmotherfuckingboom"
+            }
+        }
+    },
+    "outbound":{
+        "protocol":"freedom",
+        "settings":{
+
+        }
+    }
+}
