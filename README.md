@@ -1,4 +1,6 @@
 # 一键部署 v2ray 到 heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/1715173329/v2ray-heroku)
+- - -
 - - -
 # 配置说明：
 #### 别名(Remarks)：任意字符
@@ -12,6 +14,3 @@
 #### 伪装域名/其他项：/fuckgfw_gfwmotherfuckingboom
 #### 底层传输安全(TLS)：tls
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/1715173329/v2ray-heroku)
-
-参考 https://github.com/onplus/v2hero/
