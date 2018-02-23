@@ -13,4 +13,3 @@
 #### 伪装类型(Type）：none
 #### 伪装域名/其他项：/fuckgfw_gfwmotherfuckingboom
 #### 底层传输安全(TLS)：tls
-
